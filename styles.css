@@ -1,0 +1,67 @@
+/* ---global--- */
+
+body {
+    background-color: #edefee;
+    font-family: 'Markazi Text', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* ---header--- */
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh 4vw 5vw 4vw;
+}
+
+nav ul {
+    background-color: #333333;
+    color: aqua;
+    border-radius: 1rem;
+    padding: 0.6rem 0.5rem 0.5rem 0.5rem ;
+    list-style: none;
+    text-align: center; 
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-inline: 0.5rem;
+}
+
+nav a {
+    font-size: 1.5rem;
+    color: #edefee;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+}
