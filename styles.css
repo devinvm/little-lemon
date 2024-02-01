@@ -1,0 +1,155 @@
+/* ------global------ */
+
+html {
+    margin: auto;
+}
+
+/* ------body------ */
+
+body {
+    background-color: #edefee;
+    font-family: 'Markazi Text', serif;
+    margin: 1rem auto;
+    padding: 0 5%;
+    max-width: 1440px;
+}
+
+.hero {
+    font-weight: 900;
+    font-size: min(max(1.5em, 4vw), 64px);
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 1.25rem;
+    margin-top: 0.25rem;
+}
+
+h2 {
+    font-size: 0.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.nav {
+    text-decoration: none;
+    color: #edefee;
+}
+
+.nav:hover {
+    color: #85AB9F;
+  }
+
+/* ------header------ */
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vh 4vw 5vw 4vw;
+}
+
+nav ul {
+    background-color: #333333;
+    border-radius: 1rem;
+    padding: 0.6rem 0.5rem 0.5rem 0.5rem ;
+    list-style: none;
+    text-align: center; 
+    text-decoration: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-inline: 0.5rem;
+}
+
+nav a {
+    font-size: 1.5rem;
+}
+
+/* ------main------ */
+
+section {
+    display: flex;
+}
+
+.container {
+    position: relative;
+    font-size: 1rem;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+#banner-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 2rem;
+    padding-left: 2rem;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.75);
+    margin-bottom: 0;
+    }
+
+.banner-p {
+    font-size: min(max(16px, 4vw), 48px);
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+article {
+    max-width: 100%;
+    background-color: rgba(133, 171, 159, 0.25);
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+#one {
+    margin-right: 4%;
+}
+
+#two {
+    margin-right: 4%;
+}
+
+.article-img {
+    width: 80%;
+    border-radius: 0.25rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+footer div {
+    flex: 1;
+}
+
+#footerlogo {
+    height: 3rem;
+}
+
+.copyright {
+    font-size: 1rem;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #495E57;
+}
+  
